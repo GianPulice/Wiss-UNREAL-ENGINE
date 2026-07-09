@@ -3,6 +3,13 @@
 	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Wiss",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -11,5 +18,11 @@
 				"Editor"
 			]
 		}
+	],
+	"TargetPlatforms": [
+		"LinuxArm64",
+		"Mac",
+		"Windows",
+		"Linux"
 	]
 }
